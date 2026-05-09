@@ -1,0 +1,23 @@
+{
+  "build": {
+    "command": "npm install && npm start",
+    "runtime": "nodejs22"
+  },
+  "healthCheck": {
+    "path": "/",
+    "interval": 30,
+    "timeout": 10,
+    "retries": 3
+  },
+  "env": {
+    "ANTHROPIC_API_KEY": {
+      "description": "Anthropic API key for Claude"
+    },
+    "MONGODB_URI": {
+      "description": "MongoDB Atlas connection string"
+    },
+    "CLIENT_URL": {
+      "description": "Your Vercel frontend URL (e.g., https://your-app.vercel.app)"
+    }
+  }
+}

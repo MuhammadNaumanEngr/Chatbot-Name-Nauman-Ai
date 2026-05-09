@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm view:*)",
+      "Bash(npm install:*)",
+      "Bash(cd C:\\\\Users\\\\ah993\\\\Desktop\\\\chatgpt like\\\\client)",
+      "Bash(dir \"C:\\\\Users\\\\ah993\\\\Desktop\\\\chatgpt like\")",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //F //PID 26964)",
+      "Bash(taskkill:*)",
+      "Bash(curl -s http://localhost:5000/api/health)",
+      "Bash(npm run:*)",
+      "Bash(ls:*)",
+      "Bash(timeout 3 node index.js)",
+      "Bash(cat client/dist/assets/*.js)",
+      "Bash(curl -s http://localhost:4173/assets/index-B4YdX3oR.js)",
+      "Bash(pkill -f \"vite preview\")",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(timeout 5 node index.js)",
+      "Bash(npx eslint:*)",
+      "Bash(curl:*)",
+      "Bash(node --check index.js)",
+      "Bash(node --check src/main.jsx)",
+      "Bash(node index.js)",
+      "Bash(findstr \"5000 5173 5174 5175\")",
+      "Bash(findstr \"LISTENING\")",
+      "Bash(findstr \"517\")",
+      "Bash(findstr \":5000\")",
+      "Bash(awk NR>=1598 && NR<=1603:*)",
+      "Bash(node:*)",
+      "Read(//c/Users/ah993/Desktop/chatgpt like/**)"
+    ]
+  }
+}
